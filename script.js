@@ -5,7 +5,7 @@ const time = document.querySelector("#time span");
 const mole = document.createElement("img");
 
 let score = 0;
-let timeCount = 30;
+let timeCount = 60;
 let interval;
 let timeInterval;
 let gameboard = document.getElementById("gameboard");
