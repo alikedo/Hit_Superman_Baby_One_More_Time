@@ -1,4 +1,4 @@
-let kMusic = new Audio("./audio/hmbomt1.mp3");
+let kMusic = new Audio("./hmbomt1.mp3");
 
 const boxes = document.querySelectorAll(".box");
 const time = document.querySelector("#time span");
@@ -55,7 +55,7 @@ window.onload = function () {
                 }, 0)
             );
 
-        let hit = new Audio("./audio/punch.wav");
+        let hit = new Audio("./punch.wav");
 
 
 
@@ -96,7 +96,7 @@ window.onload = function () {
                 document.getElementById("gameover").style.display = "flex";
                 document.getElementById("scoreDisplay").innerText = score;
 
-                var bMusic = new Audio("./audio/smb_gameover.wav");
+                var bMusic = new Audio("./smb_gameover.wav");
                 bMusic.play();
                 clearInterval(interval);
                 clearInterval(timeInterval);
